@@ -1,5 +1,9 @@
-@import '../base/variables';
+@import "../base/variables";
+
 
 .ck-site {
-  width: 100%;
+  header {
+    text-align: center;
+    font-weight: bold;
+  }
 }
