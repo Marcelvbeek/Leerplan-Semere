@@ -1,0 +1,13 @@
+.header {
+    &__title {
+        text-align: center;
+        line-height: 8px;
+        padding-top: $padding-top-default;
+        padding-bottom: $padding-bottom-verysmall;
+    }
+    
+    &__text {
+          font-size: 16px;
+          text-align: center;
+        }
+}
