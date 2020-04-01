@@ -23,3 +23,34 @@
 @function get-font-size($key: m) { @return get($font-size, $key); }
 @function get-media($key: m) { @return get($media, $key); }
 @function get-z($key: m) { @return get($z, $key); }
+
+$spacing-default: 30px;
+$spacing-small: $spacing-default / 3;
+$spacing-medium: $spacing-default / 2;
+$spacing-large: $spacing-default / 1;
+
+$padding-top-default: 60px;
+$padding-top-large: $padding-top-default / 2;
+$padding-top-medium: $padding-top-default / 3;
+$padding-top-small: $padding-top-default / 4;
+
+$padding-bottom-default: 60px;
+$padding-bottom-large: $padding-bottom-default / 2;
+$padding-bottom-medium: $padding-bottom-default / 3;
+$padding-bottom-small: $padding-bottom-default / 4;
+$padding-bottom-verysmall: $padding-bottom-default / 6;
+
+// Colors
+$brand-color-primary: #00b332;
+$brand-color-secondary: #0050f0;
+
+// fonts
+
+$title-small-font-sizes: (
+  null  : (18px, 22px, 600, 10px)
+);
+
+
+
+
+

@@ -15,9 +15,6 @@
     "lint:styles": "stylelint \"./app/**/*.scss\""
   },
   "husky": {
-    "hooks": {
-      "pre-push": "npm run lint"
-    }
   },
   "dependencies": {
     "@babel/polyfill": "^7.8.3",
