@@ -1,0 +1,13 @@
+.image {
+    &__frame {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 90%;
+    }
+    &__text {
+      font-size: 14px;
+      font-style: italic;
+      text-align: center;
+    }
+  }
