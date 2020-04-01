@@ -1,6 +1,6 @@
 .body {
     line-height: 2;
-    text-align: center;
+    //text-align: center;
     &__title {
       font-size: 20px;
       text-align: center;
@@ -17,10 +17,13 @@
         color: #00b332;
       }
     }
-    &__list {
-      list-style: inside;
+    &__row {
+      margin: 0 250px;
+      //text-align: center;
+      //list-style: inside;
     }
     &__footer {
+      text-align: center;
       padding-top: $padding-top-small;
       padding-bottom: $padding-bottom-small;
       font-size: 16px;
