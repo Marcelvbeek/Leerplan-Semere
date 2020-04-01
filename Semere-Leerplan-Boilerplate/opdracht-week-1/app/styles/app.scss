@@ -20,8 +20,6 @@
 // DON'T DO THAT .ck-component-child-child2 - div.ck-component-child > div.ck-component-child-child2
 // BETTER THAT .ck-component-child .ck-component-child2 - div.ck-component-child > div.ck-component-child2
 // .ck-component--modifier (the modifier)
-@import 'components/ck-site';
-//@import 'components/compiler';
 @import 'components/header';
 @import 'components/image';
-@import 'components/body';
+@import 'components/content';
