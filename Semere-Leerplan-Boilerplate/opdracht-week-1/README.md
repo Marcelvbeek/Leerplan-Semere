@@ -15,7 +15,7 @@ Bouw de pagina (app/index.html) met behulp van de volgende technieken:
 Stijl elementen moeten als losse componenten worden opgezet. Welke componenten er nodig zijn wordt uitgelegd in de losse opdrachten hieronder. Geef ook vooral je eigen stijl mee aan de componenten die je maakt. 
 Gebruik nog geen Javascript tijdens deze opdracht. 
 
-## Opdrachten: 
+## Opdrachten (deel 1): 
 - Maak een container element voor je pagina waar al je andere elementen in geplaatst zullen gaan worden. Geef dit element een passende classnaam. 
 - Maak een titel component voor je pagina met daarin een tekst die het onderwerp van je pagina beschrijft (bv. "Dr. Norman Borlaug"). 
 - Maak een image component voor je pagina. Deze moet bestaan uit een <img> element met een <div> element als wrapper. Kies vervolgens een passende afbeelding voor je pagina. 
@@ -26,6 +26,17 @@ Gebruik nog geen Javascript tijdens deze opdracht.
 - De breedte van de afbeelding moet zich aanpassen aan de breedte van het wrapper <div> element 
 - De breedte van de afbeelding mag niet groter worden dan de oorspronkelijke breedte van de afbeelding 
 - De afbeelding moet gecentreerd staan binnen het wrapper <div> element 
+
+## Opdrachten (deel 2): 
+Maak een uitbreiding van je image component met de volgende elementen:
+- Wanneer je over de afbeelding hovert, moet er een semi-transparante overlay zichtbaar worden
+- Verplaats de beschrijvende tekst van je image component, zodat het gecentreerd in het midden van de afbeelding zichtbaar wordt wanneer je over de afbeelding hovert
+
+Bedenk en bouw een button component. Dit component moet aan de volgende eisen voldoen:
+- De button moet een zichtbare hover en focus state hebben
+- De button moet een stukje tekst en een "arrow" icoontje bevatten
+
+We gaan deze button hergebruiken in een latere opdracht. Plaats deze voor nu eerst ergens op je pagina.
 
 # Technologies
 Most relevant technologies used in the Boilerplate:
