@@ -1,31 +1,29 @@
 .content {
-    line-height: 2;
-    //text-align: center;
-    &__title {
-      font-size: 20px;
-      text-align: center;
+  line-height: 2;
+  &__title {
+    font-size: 20px;
+    text-align: center;
 
-      &--blue {
-        color:  #0050f0;
-      }
-    }
-    &__para {
-      font-size: 16px;
-      text-align: center;
-
-      &--green {
-        color: #00b332;
-      }
-    }
-    &__row {
-      margin: 0 250px;
-      //text-align: center;
-      //list-style: inside;
-    }
-    &__footer {
-      text-align: center;
-      padding-top: $padding-top-small;
-      padding-bottom: $padding-bottom-small;
-      font-size: 16px;
+    &--blue {
+      color: #0050f0;
     }
   }
+  &__para {
+    font-size: 16px;
+    text-align: center;
+
+    &--green {
+      color: #00b332;
+    }
+  }
+  &__row {
+    margin: 0 0 0 250px;
+  }
+
+  &__footer {
+    text-align: center;
+    padding-top: $padding-top-small;
+    padding-bottom: $padding-bottom-small;
+    font-size: 18px;
+  }
+}
