@@ -4,10 +4,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 90%;
-    .image:hover .overlay {
-      display: inline-block;
-      opacity: 0.6;
-    }
+    
   }
   &__overlay {
     position: absolute;
@@ -31,5 +28,9 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+  }
+  .image:hover .overlay {
+    display: inline-block;
+    opacity: 0.6;
   }
 }
