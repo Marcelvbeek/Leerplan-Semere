@@ -1,0 +1,11 @@
+.footer {
+  &__title {
+    text-align: center;
+    padding-bottom: $padding-bottom-small;
+    font-size: 18px;
+
+    &--link {
+      color: #0050f0;
+    }
+  }
+}

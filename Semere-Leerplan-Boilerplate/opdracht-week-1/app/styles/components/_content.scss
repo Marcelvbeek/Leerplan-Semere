@@ -1,5 +1,6 @@
 .content {
   line-height: 2;
+
   &__title {
     font-size: 20px;
     text-align: center;
@@ -8,6 +9,7 @@
       color: #0050f0;
     }
   }
+
   &__para {
     font-size: 16px;
     text-align: center;
@@ -16,14 +18,26 @@
       color: #00b332;
     }
   }
+
   &__row {
-    margin: 0 0 0 250px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
   }
 
-  &__footer {
+  &__box {
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  &__picturedesc {
+    font-size: 16px;
+    font-style: italic;
     text-align: center;
-    padding-top: $padding-top-small;
-    padding-bottom: $padding-bottom-small;
-    font-size: 18px;
+
+    &--green {
+      color: #00b332;
+    }
   }
 }

@@ -23,4 +23,8 @@
   button:hover {
     background-color: #0050f0;
   }
+  // Met class button selecteren het de hele class
+  &__button:hover {
+    background-color: #0050f0;
+  }
 }
