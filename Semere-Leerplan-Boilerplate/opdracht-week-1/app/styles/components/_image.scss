@@ -1,20 +1,23 @@
 .image {
+  position: relative;
+
   &__frame {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 90%;
-    
   }
+
   &__overlay {
     position: absolute;
-    top: 210px;
+    top: 0;
     bottom: 0;
-    left: 50px;
+    left: 0;
     right: 0;
     background-color: black;
     cursor: pointer;
     transition: 0.5s ease;
+    display: none;
   }
 
   &__popup {
@@ -29,8 +32,16 @@
     transform: translate(-50%, -50%);
     text-align: center;
   }
-  .image:hover .overlay {
+
+  .image:hover > &__overlay {
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .image:hover > &__overlay {
     display: inline-block;
-    opacity: 0.6;
+    opacity: 0.5;
   }
 }

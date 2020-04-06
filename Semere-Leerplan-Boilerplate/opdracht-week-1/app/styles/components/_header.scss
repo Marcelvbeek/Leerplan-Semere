@@ -1,5 +1,6 @@
 .header {
   padding-bottom: $padding-bottom-large;
+
   &__title {
     text-align: center;
     line-height: 8px;
@@ -7,14 +8,19 @@
     padding-top: $padding-top-default;
     padding-bottom: $padding-bottom-verysmall;
   }
+
   &__text {
     font-size: 16px;
     text-align: center;
   }
+
   &__button {
-    position: absolute;
-    top: 160px;
-    left: 450px;
-    padding-bottom: $padding-bottom-large;
+    display: flex;
+    justify-content: center;
+    padding-bottom: $padding-bottom-verysmall;
+  }
+
+  button:hover {
+    background-color: #0050f0;
   }
 }
