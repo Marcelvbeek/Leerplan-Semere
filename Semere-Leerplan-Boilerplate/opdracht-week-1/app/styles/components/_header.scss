@@ -4,27 +4,27 @@
   &__title {
     text-align: center;
     line-height: 8px;
-    font-size: 30px;
+    font-size: $font-sizes-xl;
     padding-top: $padding-top-default;
-    padding-bottom: $padding-bottom-verysmall;
+    padding-bottom: $padding-bottom-xs;
   }
 
   &__text {
-    font-size: 16px;
+    font-size: $font-sizes-small;
     text-align: center;
   }
 
   &__button {
     display: flex;
     justify-content: center;
-    padding-bottom: $padding-bottom-verysmall;
+    padding-bottom: $padding-bottom-xs;
   }
 
   button:hover {
     background-color: #0050f0;
   }
-  // Met class button selecteren het de hele class
-  &__button:hover {
-    background-color: #0050f0;
-  }
+  // Met class button selecteren het de hele container.
+  //&__button:hover {
+  //background-color: #0050f0;
+  //}
 }

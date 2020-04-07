@@ -2,7 +2,7 @@
   line-height: 2;
 
   &__title {
-    font-size: 20px;
+    font-size: $font-sizes-medium;
     text-align: center;
 
     &--blue {
@@ -10,8 +10,8 @@
     }
   }
 
-  &__para {
-    font-size: 16px;
+  &__main {
+    font-size: $font-sizes-small;
     text-align: center;
 
     &--green {
@@ -20,24 +20,30 @@
   }
 
   &__row {
-    font-size: 16px;
+    font-size: $font-sizes-small;
     display: flex;
     justify-content: center;
   }
 
   &__box {
-    margin-left: 50px;
+    margin-left: 30px;
     display: flex;
     justify-content: space-evenly;
   }
 
   &__picturedesc {
-    font-size: 16px;
+    font-size: $font-sizes-small;
     font-style: italic;
     text-align: center;
 
     &--green {
+      font-weight: normal;
       color: #00b332;
+    }
+
+    &--black {
+      font-weight: bold;
+      color: black;
     }
   }
 }
