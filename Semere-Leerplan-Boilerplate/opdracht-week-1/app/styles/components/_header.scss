@@ -20,11 +20,8 @@
     padding-bottom: $padding-bottom-xs;
   }
 
-  button:hover {
+  .btn:hover {
     background-color: #0050f0;
   }
-  // Met class button selecteren het de hele container.
-  //&__button:hover {
-  //background-color: #0050f0;
-  //}
 }
+

@@ -25,6 +25,12 @@
     justify-content: center;
   }
 
+  &__picturebox {
+    padding-bottom: $padding-bottom-medium;
+    display: flex;
+    justify-content: space-around;
+  }
+
   &__box {
     margin-left: 30px;
     display: flex;
