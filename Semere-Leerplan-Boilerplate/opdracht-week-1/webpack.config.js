@@ -18,7 +18,7 @@ module.exports = env => {
       ]
     },
     output: {
-      filename: '[name].js'
+      filename: '../opdracht-2/source/css/[name].js'
     },
     module: {
       rules: [
