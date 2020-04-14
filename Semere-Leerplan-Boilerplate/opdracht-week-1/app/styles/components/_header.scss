@@ -1,5 +1,5 @@
 .header {
-  padding-bottom: $padding-bottom-large;
+  padding-bottom: $padding-bottom-l;
 
   &__title {
     text-align: center;
@@ -10,18 +10,8 @@
   }
 
   &__text {
-    font-size: $font-sizes-small;
+    font-size: $font-sizes-s;
     text-align: center;
-  }
-
-  &__button {
-    display: flex;
-    justify-content: center;
-    padding-bottom: $padding-bottom-xs;
-  }
-
-  .btn:hover {
-    background-color: #0050f0;
   }
 }
 

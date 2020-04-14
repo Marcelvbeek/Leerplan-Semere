@@ -14,15 +14,20 @@
     bottom: 0;
     left: 0;
     right: 0;
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
     background-color: black;
     cursor: pointer;
-    transition: 0.5s ease;
-    display: none;
+    transition: opacity 0.5s ease;
+    display: inline-block;
+    opacity: 0;
   }
 
-  &__popup {
+  &__overlay-text {
     color: white;
-    font-size: $font-sizes-small;
+    font-size: $font-sizes-s;
     font-style: italic;
     position: absolute;
     top: 50%;
@@ -33,12 +38,7 @@
     text-align: center;
   }
 
-  .image:hover > &__overlay {
-    width: 90%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    display: inline-block;
+  .image:hover > &__overlay, &__overlay-text {
     opacity: 0.5;
   }
 }

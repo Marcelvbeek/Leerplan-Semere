@@ -1,11 +1,12 @@
+//what is the class for & for what purpose we used for.
 .footer {
   &__title {
     text-align: center;
-    padding-bottom: $padding-bottom-small;
-    font-size: $font-sizes-small;
+    padding-bottom: $padding-bottom-s;
+    font-size: $font-sizes-s;
 
     &--link {
-      color: #0050f0;
+      color: $brand-color-secondary-30;
     }
   }
 }

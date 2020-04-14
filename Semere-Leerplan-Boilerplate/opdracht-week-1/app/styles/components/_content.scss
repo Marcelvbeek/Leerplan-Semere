@@ -2,54 +2,60 @@
   line-height: 2;
 
   &__title {
-    font-size: $font-sizes-medium;
+    font-size: $font-sizes-m;
     text-align: center;
 
     &--blue {
-      color: #0050f0;
+      color:$brand-color-secondary-30;
     }
   }
 
   &__main {
-    font-size: $font-sizes-small;
+    font-size: $font-sizes-s;
     text-align: center;
 
     &--green {
-      color: #00b332;
+      color:$brand-color-primary-30;
     }
   }
 
   &__row {
-    font-size: $font-sizes-small;
+    font-size: $font-sizes-s;
     display: flex;
     justify-content: center;
   }
 
   &__picturebox {
-    padding-bottom: $padding-bottom-medium;
+    padding-bottom: $padding-bottom-m;
     display: flex;
     justify-content: space-around;
   }
-
-  &__box {
-    margin-left: 30px;
-    display: flex;
-    justify-content: space-evenly;
+  .images {
+    width: 30%;
+    height: auto;
+  }
+  .pictures {
+    width: 100%;
+    height: auto;
   }
 
-  &__picturedesc {
-    font-size: $font-sizes-small;
+  &__box {
+    margin-left: 5px;
+  }
+
+  &__picturedesciption {
+    font-size: $font-sizes-s;
     font-style: italic;
     text-align: center;
 
     &--green {
       font-weight: normal;
-      color: #00b332;
+      color: $brand-color-primary-30;
     }
 
-    &--black {
+    &--blue {
       font-weight: bold;
-      color: black;
+      color: $brand-color-secondary-30;
     }
   }
 }
