@@ -1,0 +1,12 @@
+{
+  "name": "Semere-Leerplan-Boilerplate",
+  "version": "1.0.0",
+  "description": "Opdrachten staan onder de folders: Opdracht week X. Voor informatie over de opdracht zie README.MD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
