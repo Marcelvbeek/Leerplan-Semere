@@ -1,14 +1,17 @@
 .header {
-    &__title {
-        text-align: center;
-        line-height: 8px;
-        font-size: 30px;
-        padding-top: $padding-top-default;
-        padding-bottom: $padding-bottom-verysmall;
-    }
-    
-    &__text {
-          font-size: 16px;
-          text-align: center;
-        }
+  padding-bottom: $padding-bottom-l;
+
+  &__title {
+    text-align: center;
+    line-height: 8px;
+    font-size: $font-sizes-xl;
+    padding-top: $padding-top-default;
+    padding-bottom: $padding-bottom-xs;
+  }
+
+  &__text {
+    font-size: $font-sizes-s;
+    text-align: center;
+  }
 }
+
