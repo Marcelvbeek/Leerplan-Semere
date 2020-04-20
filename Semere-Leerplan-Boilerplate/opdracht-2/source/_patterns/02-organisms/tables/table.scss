@@ -28,20 +28,21 @@
  * Table Row
  */
 .c-table__row {
-	border-bottom: 1px solid $color-neutral-gray-07;
+	border-bottom: 1px solid $color-neutral-gray-02;
 }
 
 /**
  * Table Cell
  */
 .c-table__cell {
-	padding: 1.6rem 0.8rem;
+	padding: 1.6rem 0.6rem;
 }
 
 /**
  * Table Footer
  */
 .c-table__footer {
+	padding: 0.8rem;
 }
 
 /**

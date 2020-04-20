@@ -1,0 +1,9 @@
+.button {
+  display: flex;
+  justify-content: center;
+  padding-bottom: $padding-bottom-xs;
+
+  .btn:hover {
+    background-color: $brand-color-secondary-30;
+  }
+}

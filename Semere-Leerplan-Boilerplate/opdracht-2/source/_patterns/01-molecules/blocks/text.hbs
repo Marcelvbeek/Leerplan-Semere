@@ -1,0 +1,13 @@
+<a href="{{ src }}" class="c-text {{ styleModifier }}">
+        <div class="c-text__header">
+        {{#if textImage }}
+		<div class="c-web__media">
+			{{> atoms-text-image src=textImage }}
+		</div>
+		{{/ if }}
+	</div>
+		<div class="c-text__body">
+		<h3 class="c-text__title">{{ title }}</h3>
+		{{#if description}}<p class="c-text__excerpt">{{ description }}</p>{{/ if }}
+	</div>
+</a>

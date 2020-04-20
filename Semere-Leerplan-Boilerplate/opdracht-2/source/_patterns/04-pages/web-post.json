@@ -1,0 +1,93 @@
+{
+	"page": {
+		"title": "Zaha Hadid",
+		"description": "The first woman to receive the Pritzker Architecture Prize"
+	},
+	
+	"buttonText" : "See more",
+
+    "webs": [
+		{
+			"webImage": "https://picsum.photos/400/300",
+			"description": "The picture depict the image of the Hoxton square, London, England. "
+		}
+		
+	],
+
+	"texts": [
+		{
+			"title": "List of architectural buildings",
+			"description": "1991 - 1993 - Vitra Fire Station in Weil am Rhein, Germany"
+		},
+		{
+			"description": "1999 - 2002 - Bergisel Ski Jump, Innsbruck, Austria"
+		},
+		{
+			"description": "1997 – 2000 - Contemporary Arts Center, United States of America."
+		}
+
+		
+	],
+
+
+	"tableHeaderCells" : [
+        {
+            "th" : "Year"
+        },
+        {
+            "th" : "Description"
+        }
+    ],
+    "tableRows" : [
+        {
+            "tableCells" : [
+                {
+                    "td" : "1991 - 1993"
+                },
+                {
+                    "td" : "Vitra Fire Station in Weil am Rhein, Germany"
+                }
+            ]
+        },
+        {
+            "tableCells" : [
+                {
+                    "td" : "1999 - 2002"
+                },
+                {
+                    "td" : "Bergisel Ski Jump, Innsbruck, Austria"
+                }
+            ]
+		},
+		{
+            "tableCells" : [
+                {
+                    "td" : "1997 – 2000"
+                },
+                {
+                    "td" : "Contemporary Arts Center, United States of America."
+                }
+            ]
+		},
+		{
+            "tableCells" : [
+                {
+                    "td" : "2000 – 2005"
+                },
+                {
+                    "td" : "Phaeno Science Center, Germany."
+                }
+            ]
+		},
+		{
+            "tableCells" : [
+                {
+                    "td" : "2001 – 2005"
+                },
+                {
+                    "td" : "Ordrupgaard Museum extension, Denmark."
+                }
+            ]
+        }
+	]
+}

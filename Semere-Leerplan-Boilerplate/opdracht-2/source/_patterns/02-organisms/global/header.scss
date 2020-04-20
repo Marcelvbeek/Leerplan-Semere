@@ -10,14 +10,18 @@
 	background: $color-neutral-gray-07;
 	padding: 1rem;
 	margin-bottom: 2rem;
+	
 }
 
 /**
  * Header inner
+
  */
 .c-header__inner {
 	display: flex;
-	align-items: center;
+	text-align: center;
+	color: $color-brand-blue;
+	
 }
 
 /**
