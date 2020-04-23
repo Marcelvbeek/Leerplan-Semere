@@ -21,8 +21,9 @@
 
   &__row {
     font-size: $font-sizes-s;
-    display: flex;
+    display: block;
     justify-content: center;
+    margin-left: 50px;
   }
 
   &__picturebox {

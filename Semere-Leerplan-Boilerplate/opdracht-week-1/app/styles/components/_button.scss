@@ -1,7 +1,17 @@
 .button {
-  display: flex;
-  justify-content: center;
+  width: 50px;
+  padding: 10px 40px;
   padding-bottom: $padding-bottom-xs;
+  text-decoration: none;
+  
+  .btn {
+    display: flex;
+    justify-content: center;
+  }
+
+  .link {
+    text-decoration: none;
+  }
 
   .btn:hover {
     background-color: $brand-color-secondary-30;

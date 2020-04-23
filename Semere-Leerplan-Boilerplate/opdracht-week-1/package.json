@@ -5,8 +5,9 @@
   "version": "2.4.2",
   "scripts": {
     "build": "webpack --env.NODE_ENV=production --env.mode=config",
-    "build:patternlab": "webpack --env.NODE_ENV=production --env.mode=patternlab",
+    "build:patternlab": "webpack --env.NODE_ENV=production --env.mode=patternlab --hot",
     "start": "webpack-dev-server --env.NODE_ENV=development --hot --open",
+    "start:patternlab": "webpack-dev-server --env.NODE_ENV=development --env.mode=config --hot --open",
     "test": "npm run test:unit && npm run test:e2e",
     "test:unit": "jest",
     "test:e2e": "start-server-and-test start http-get://localhost:4000 \"cypress run\"",
