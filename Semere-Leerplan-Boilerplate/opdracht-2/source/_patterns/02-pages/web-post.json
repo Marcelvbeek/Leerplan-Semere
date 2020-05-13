@@ -1,0 +1,47 @@
+{
+    "texts": [
+		{
+			"list": "1991 - 1993 - Vitra Fire Station in Weil am Rhein, Germany"
+		},
+		{
+			"list": "1999 - 2002 - Bergisel Ski Jump, Innsbruck, Austria"
+		},
+		{
+			"list": "1997 – 2000 - Contemporary Arts Center, United States of America."
+		},
+		{
+			"list": "2000 – 2005 - Phaeno Science Center, Germany."
+		},
+		{
+			"list": "2001 – 2005 - Ordrupgaard Museum extension, Denmark."
+		},
+		{
+			"list": "2001 – 2005 - BMW Administration Building, Germany."
+		},
+		{
+			"list": "2005 – 2008 - Bridge Pavilion in Zaragoza, Spain."
+		},
+		{
+			"list": "1998 – 2010 - National Museum of Arts of the 21st Century (MAXXI), Rome, Italy."
+		},
+		{
+			"list": "2003 – 2010 - Guangzhou Opera House, Guangzhou, China."
+		},
+		{
+			"list": "2007 - 2012 - Broad Art Museum, Michigan State University, East Lansing, Michigan, USA."
+		}		
+	],
+
+    "title": "Zaha Hadid",
+    "titleDescription": "The first woman to receive the Pritzker Architecture Prize",
+	"textImage": "The picture depict the random image hover effect",
+	"footer": "If you have time, you should read more about this incredible human being on her website",
+	"link": "www.zaha-hadid.com",
+	"textbutton": "See More",
+	"urlImage": "https://picsum.photos/400/300",
+    "urlButton": "link.molecules-picturebox",
+    "pictureDescriptionBlue": "Sample pictures",
+    "pictureDescriptionGreen": "of magnificient masterpiece of architectural buildings",
+    "subheadingList": "List of architectural buildings",
+    "paragraph": "Her international reputation was greatly enhanced in 1988 when she was chosen to show her drawings and paintings  as one of seven architects chosen to participate in the exhibition Deconstructivism in Architecture curated by Philip  Johnson and Mark Wigley at New York's Museum of Modern Art."
+  }
